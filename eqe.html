@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes EQE</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/eqe.png">
+        <source src="pics/eqevv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+              
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes EQE450</h1>
+<p>The Mercedes-Benz EQE (V295) is a battery electric executive car produced by German automobile manufacturer Mercedes-Benz Group. It is part of the Mercedes-Benz EQ family,[2] and was presented at the Munich Motor Show 2021. The only model available at launch has been the rear-motor EQE 350. Its engine has a peak power of 215 kW (288 hp), and it has a range of up to 660 km (410 mi). More variants are said to follow later, including a 4Matic AWD dual-motor setup with a peak engine power output of up to 500 kW (671 hp).[3] The U.S. will get one version simply called the Mercedes AMG EQE which is the same 617-hp EQE 53 4matic+ seen in Europe.[4]
+
+    In 2022, the high-performance EQE 43 & 53 4Matic+ versions were unveiled.[5] Changes include power bumps of up to 687 PS (505 kW; 678 hp), 1,000 N⋅m (738 lb⋅ft) of torque, upgraded internals and AMG touches inside and out.</p>
+    <button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+     </div>
+     <div class="column2">
+       <img src="pics/eqe.png" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

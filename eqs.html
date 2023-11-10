@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes EQS</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/eqs.jpg">
+        <source src="pics/eqsvv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+              
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes EQS580</h1>
+<p>The 2022 Mercedes-Benz EQS sedan is the flagship of the brand's electrified future and one of the fanciest EVs ever. We even named it to our 2022 Editors' Choice list. Its curvaceous body effortlessly slips through the air for maximum efficiency, and its palatial cabin boasts luxurious appointments and state-of-the-art features for the all-important wow factor. That's made most obvious by the optional glass-covered Hyperscreen dashboard. The sizable EV sedan is offered with a 329-hp, rear-drive powertrain (EQS450+) or a 516-hp, all-wheel-drive setup (EQS580 4Matic). Both utilize a large 107.8-kWh battery that's rated at up to 350 miles of range. While calling the 2022 EQS an electrifying luxury car is an easy pun, it's also entirely accurate.</p>
+<button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+     </div>
+     <div class="column2">
+       <img src="pics/eqs.jpg" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

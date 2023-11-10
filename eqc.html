@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes EQC</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/eqc.jpeg">
+        <source src="pics/eqcvv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+             
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes EQC250</h1>
+       <p>A growing number of carmakers offer electrified transportation, and Mercedes-Benz had planned to enter the fray with the EQC before pulling the plug on its electric SUV in early 2021. Mercedes-Benz was careful to say that the EQC could be introduced to the U.S. in the future, but for the time being it will remain an option only in overseas markets. The EQC would have been a compact SUV that offered seating for five. Its fully electric powertrain would have delivered quiet performance, along with the crisp acceleration that's part of the package with many luxury EVs. Its cabin looked appropriately deluxe, with high-gloss plastics, attractive textiles, and modern design. Overall, the EQC's blend of Mercedes-Benz opulence and eco-friendly electrification would have made it an attractive pick for green-minded luxury-SUV buyers.</p>
+       <button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+        </div>
+     <div class="column2">
+       <img src="pics/eqc.jpeg" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

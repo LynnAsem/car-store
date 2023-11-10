@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes gle</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/gle.png">
+        <source src="pics/glevv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+              
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes GLE350</h1>
+        <p>Like the mid-size Mercedes SUVs that came before, the 2022 GLE-class delivers the latest tech, a spacious interior, and more off-road capability than most owners will dare to explore. Most models come with two rows of seats, both of which are comfortable and luxurious. An optional third row is available, but it's really good only for kids. A wall of screens dominates the GLE's dashboard and provides a fully digital gauge display and an expansive look at the car's infotainment all in one panel. A turbocharged four-cylinder serves as the base powertrain, but a turbo inline-six and a twin-turbo V-8 are also offered (although the V-8 will be offered in a limited supply this year). For those seeking to venture far from paved roads and civilization, the GLE can be had with an adjustable air suspension that can provide additional ground clearance and can also help rock the SUV free from deep sand or mud.</p>
+        <button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+     </div>
+     <div class="column2">
+       <img src="pics/gle.png" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes C63s</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/c63s.png">
+        <source src="pics/c63svv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+              
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes C 63s AMG</h1>
+       <p>The Mercedes-AMG C 63 and the Mercedes-AMG C 63 S stand for performance at the very highest level that can be seen and experienced. High-tech components, some of which come from motorsports, and a progressive tuning take their power to the road. Their extreme dynamics can be recognized in every detail – with the facelift the dominant design has been further sharpened and now presents itself in a manner more striking and expressive than ever. And in the interior, too, the AMG feeling is perceptible in each and every detail – the result is a perfect fusion between first-class materials and sporty ambience.</p>
+       <button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+     </div>
+     <div class="column2">
+       <img src="pics/c63s.png" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes GT63</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/gt63.png">
+        <source src="pics/gt63vv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+              
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes GT63 AMG</h1>
+      <p>The absolutely stunning bodywork of the 2021 Mercedes-AMG GT will no doubt draw your eye, but it's more than just a pretty face. The low and wide GT is also an extremely capable high-performance sports car. This is Mercedes's front-engine answer to the rear-engine Porsche 911. Offered at various point points, the GT features a hand-built twin-turbo V-8. Although this AMG isn't as immersive to drive as its archrival from Porsche, it's still super athletic, and most models are surprisingly civil on streets that aren't racetrack smooth. Those who prefer a more refined grand tourer will appreciate the 523-hp GT and 550-hp GT C, and those with sportier desires will gravitate toward the 577-hp GT R and GT R Pro. Most models are available in coupe and softtop-roadster forms, but the track-focused Pro and almighty 720-hp Black Series are hardtop only.</p>
+      <button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+       
+     </div>
+     <div class="column2">
+       <img src="pics/gt63.png" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

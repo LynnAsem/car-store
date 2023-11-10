@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes s500</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/sclass.jpeg">
+        <source src="pics/sclassvv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+              
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes S500 </h1>
+<p>The 2022 Mercedes-Benz S-class is as much a personal limo for the ultra-wealthy as it is a rolling showcase of the company's latest tech. Not only does Mercedes' iconic sedan have an interior that's lined with the finest materials, but it also features huge OLED screens on the dashboard as well as a 3D-capable display and navigation with augmented reality. Along with standard all-wheel drive, the S-class's effortless acceleration comes from a 429-hp straight-six (S500) or a 496-hp V-8 (S580). Driving either model isn't about excitement, it's about isolation and relaxation, which is why the best seats are in the back. Still, this huge barge is surprisingly nimble around curves and in traffic, especially with the optional rear-axle steering. Regardless of the occasion, the 2022 S-class rises to it, which is why we named it to our Editors' Choice list.</p>
+<button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+       
+     </div>
+     <div class="column2">
+       <img src="pics/sclass.jpeg" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

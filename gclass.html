@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Mercedes G-class</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/gclass.png">
+        <source src="pics/gclassvv.mp4" type="video/mp4">
+        </video>
+ <nav>
+   <div class="logo">Mercedes-Benz</div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="main_page.html">Home</a></li>
+       
+      <li> <a href="contact.html">Contact</a></li>
+     <li> <a href="login.html">Login</a></li>
+     </ul>
+   </div>
+ </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Mercedes G63 AMG</h1>
+<p>Mercedes-Benz's iconic G-Class SUV has roots as a military vehicle, but the high-performance 2022 Mercedes-AMG G63 model serves an entirely different driver than the 1970s original. A 577-hp twin-turbocharged V-8 engine gives the G63 incredible performance, and its posh cabin offers all the modern amenities we've come to expect from a top-spec Mercedes. A host of infotainment and other tech features that would have seemed like science fiction to the designers of the original truck are standard. Want to go off road? The G63 can tackle those tasks too, although we'd be nervous about nicking its sporty-looking 20-inch wheels. No matter how you intend to use it, though, the G63 is built to impress—and its price tag reflects both its skillset and status.</p>
+<button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+        </div>
+     <div class="column2">
+       <img src="pics/gclass.png" alt="banner" width="600px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>

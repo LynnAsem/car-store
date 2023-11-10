@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/landing.css">
+  <title>Maybach GLS 600</title>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="pics/gmaybach.png">
+        <source src="pics/gmaybachvv.mp4" type="video/mp4">
+        </video>
+        <nav>
+          <div class="logo">Mercedes-Benz</div>
+          <!-- toggle menu button -->
+          <span class="menubtn" onclick="openNav()">&#9776;</span>
+        
+          <div class="navLinks">
+            <ul>
+              <li><a href="main_page.html">Home</a></li>
+              
+             <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Maybach GLS 600</h1>
+       <p>Vehicles wearing the Maybach badge, such as the 2022 Mercedes-Maybach GLS600, offer the utmost in luxury and deliver a transportation experience as rich as caviar. A twin-turbocharged V-8 is under the hood and drives all four wheels through a standard nine-speed automatic. Power is plentiful and the GLS600 glides along with on air suspension. But the GLS600 is less about its powertrain and chassis and more about its overstuffed cabin, which is fit for the real kings, sports stars, and hedge-fund managers who will own one of these posh palaces-on-wheels. Nappa leather, premium wood, and other high-end finishes give the interior a lounge-like environment. A pair of rear seats recline and massage you. The trade-off is that the GLS600 isn't as practical as its Benz- and AMG-branded counterparts, as it is not offered with a third row of seats and its cargo area is far less capacious. That won’t be a problem for those buyers who seek out its sybaritic qualities.</p>
+       <button class="btn btn-success" onclick=" window.open('login.html','_blank')"> PURCHASE</button>
+     </div>
+     <div class="column2">
+       <img src="pics/gmaybach.png" alt="banner" width="500px">
+     </div>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>
